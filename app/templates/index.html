@@ -1,0 +1,7 @@
+<form method="post">
+<textarea name="job"></textarea>
+<button type="submit">Check</button>
+</form>
+{% if result %}
+<p>Trust Score: {{result.trust_score}}</p>
+{% endif %}
